@@ -1,12 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Anis Hodzic | IT-Systemadministrator | Security Engineer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anis Hodzic | System & Security Admin</title>
+    <style>
+        body { background: #121212; color: #e0e0e0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; padding: 0; margin: 0; }
+        .hero { background: linear-gradient(135px, #1a1a1a 0%, #000 100%); padding: 60px 20px; text-align: center; border-bottom: 3px solid #00ff41; }
+        .hero h1 { font-size: 3rem; margin: 0; color: #fff; }
+        .hero p { font-size: 1.2rem; color: #00ff41; font-family: monospace; }
+        
+        .content { max-width: 800px; margin: -40px auto 40px; background: #1e1e1e; padding: 40px; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+        h2 { border-left: 4px solid #00ff41; padding-left: 15px; margin-top: 40px; color: #fff; }
+        
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
+        .card { background: #252525; padding: 20px; border-radius: 5px; border: 1px solid #333; }
+        .card h3 { margin-top: 0; color: #00d4ff; }
+        
+        .bio-text { font-size: 1.1rem; }
+        .social-links { margin-top: 30px; text-align: center; }
+        .btn { display: inline-block; padding: 10px 20px; background: #00ff41; color: #000; text-decoration: none; font-weight: bold; border-radius: 5px; margin: 5px; }
+        .btn-alt { background: transparent; color: #00ff41; border: 1px solid #00ff41; }
+        
+        @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } .hero h1 { font-size: 2rem; } }
+    </style>
 </head>
 <body>
+
+<div class="hero">
     <h1>Anis Hodzic</h1>
-    <p>IT-Systemadministrator | Security Engineer</p>
-    <hr>
-    <p>Welcome my site.</p>
+    <p>Father • Tech Enthusiast • Security Explorer</p>
+</div>
+
+<div class="content">
+    <section class="bio-text">
+        <h2>Hey, I'm Anis.</h2>
+        <p>
+            I'm a native English speaker currently living in <strong>Wasserburg am Inn</strong>. 
+            My journey in tech started back in the USA (Go Hoover High!), and it eventually led me to 
+            Germany where I turned my passion for breaking and fixing things into a career as a 
+            System & Security Engineer.
+        </p>
+        <p>
+            By day, I’m hardening enterprise infrastructures and hunting threats at <strong>Krones AG</strong>. 
+            But when the laptop closes, I’m either out hiking with my two kids, cycling through Bavaria, 
+            or—more likely—tinkering with my servers.
+        </p>
+    </section>
+
+    <div class="grid">
+        <div class="card">
+            <h3>The Homelab</h3>
+            <p>I run a multi-node <strong>Proxmox</strong> cluster at home. It’s my playground for Docker, 
+            VLAN segmentation, and self-hosting everything from password managers to media servers. 
+            If it has a CLI, I've probably messed with it.</p>
+        </div>
+        <div class="card">
+            <h3>Personal Philosophy</h3>
+            <p>I don't just "do IT." I believe security is the foundation of everything. Whether it's 
+            dropping a risk score from 80 to 20 or setting up a secure VPN for my family, I take 
+            pride in building systems that <strong>actually stay up</strong>.</p>
+        </div>
+    </div>
+
+    <h2>What I'm Into</h2>
+    <ul>
+        <li><strong>Mountain Air:</strong> Wandering the local trails and getting lost in nature.</li>
+        <li><strong>Open Source:</strong> Self-hosting isn't a hobby; it's a lifestyle.</li>
+        <li><strong>Global Vibes:</strong> Being trilingual (English, German, Bosnian) helps me connect with people across the world.</li>
+    </ul>
+
+    <div class="social-links">
+        <a href="mailto:anishodzic@tutamail.com" class="btn">Say Hello</a>
+        <a href="https://github.com" class="btn btn-alt">Check my Repos</a>
+    </div>
+</div>
+
 </body>
 </html>
